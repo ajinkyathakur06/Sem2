@@ -1,0 +1,14 @@
+package pkginheritance;
+import java.lang.*;
+
+/**
+ * @author Ajinkya
+ * 
+ */
+
+public class DemoClass {
+	public static void main(String[] args) {
+		System.out.print("Hello World");
+		
+	}
+}

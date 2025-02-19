@@ -1,0 +1,21 @@
+package pkginheritance;
+
+public class Dog {
+	
+	private int tailLength;
+	private boolean istrained;
+
+	public boolean isIstrained() {
+		return istrained;
+	}
+
+	public void getTrained() {
+		
+	}
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

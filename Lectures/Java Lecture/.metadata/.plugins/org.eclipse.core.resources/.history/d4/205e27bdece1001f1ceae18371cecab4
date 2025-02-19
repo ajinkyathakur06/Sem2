@@ -1,0 +1,28 @@
+package pkginheritance;
+
+public class Mammal{
+	private int litterSize;
+	private int gestationPeriod;
+	 
+	public int getLitterSize() {
+		return litterSize;
+	}
+	 
+	public void setLitterSize(int litterSize) {
+		this.litterSize = litterSize;
+	}
+	
+	public int getGestationPeriod() {
+		return gestationPeriod;
+	}
+	
+	public void setGestationPeriod(int gestationPeriod) {
+		this.gestationPeriod = gestationPeriod;
+	}
+	
+	public void details() {
+		System.out.println("Age of mammal"+this.getAge());
+	}
+	
+	
+}
