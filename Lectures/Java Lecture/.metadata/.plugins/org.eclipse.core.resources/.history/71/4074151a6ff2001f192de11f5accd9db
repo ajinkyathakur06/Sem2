@@ -1,0 +1,15 @@
+package pkgInterfaceExample;
+
+public class OuterB {
+	public int n,m;
+	
+	public OuterB(int n, int m) {
+		this.n = n;
+		this.m = m;
+	}
+	
+	public void printValues() {
+		System.out.println("n is : "+n);
+		System.out.println("m is : "+m);
+	}
+}

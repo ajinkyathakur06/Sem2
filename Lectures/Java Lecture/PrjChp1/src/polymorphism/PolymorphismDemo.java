@@ -18,6 +18,8 @@ public class PolymorphismDemo {
 		}
 		else 
 			System.out.println("Input does not match");
+		
+		sc.close();
 	}
 
 }

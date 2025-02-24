@@ -1,0 +1,169 @@
+Primitive Data types - byte 	short 		int 	long 	float 		double 		char 		boolean
+			1	  2		4	8	  4		8		2		1bit
+
+Array is a collection values with same data type.Elements are stored in contigous memory location.
+Array elements can be accessed with single name and different index value.
+
+Class is a template/blueprint to create an object.
+
+Java is not a 100% Object oriented programming language as it has 8 primitive data types.
+
+If you have declared a parameterized constructor then you have  to declare a default constructor.
+
+Constructor is sepcial method which has same name as the class name
+It does not return anything.
+It gets called automatically when instance is created.
+There are two types of constructor default and parameterized constructor.
+
+OOPs concepts are:
+	Polymorphism:	Multiple forms.
+	Inheritance:	It passes properties of one class to another class.
+	Encapsulation:	It is binding data variables and methods together in class.
+	Abstraction:	It is securing data by not showing   
+
+"This" ia a keyword in Java.It is used to accessed current object.It is reference which holds the address of current object.
+"This" and parenthesis can be used call constructor in the class.
+
+Same methods with different number of parameters / different datatypes is called as method overloading.
+
+Static variables will be common for all instances in the class.
+There will be only one copy of static variable for entire class.
+Static variables should be accessed by ClassName.fieldname.
+Non-Static variables cannot be used in static method.
+"This" keyword cannot be used in static method.
+
+Main method is static method so that creating instance is not required, it can be accessed from anywhere as it's public.
+JVM does not require any return type so it has void as return type.It is the starting execution point of any java program.
+
+String args[] is command line argument.
+
+Inheritance is an importatnt feature of OPPs
+Inheritance is including one class properties into another.
+Extends keywords is used for inheritance
+
+Syntax of inheritance:
+	class SubClass extends SuperClass{
+	
+	}
+
+Current class is SuperClass and new Class is SubClass.
+Types of Inheritance:
+	Single Inheritance		One SuperClass And One SubClass
+	
+		class A{
+		}
+		class B extends A{
+		}
+
+	Multilevel Inheritance		One SuperClass And two/more Subclass
+		class A{
+		}	
+		class B extends A{
+		}
+		class C extenda B{
+		}
+
+	Hierarchical Inheritance	Multiple classes
+		class A{
+		}
+		class B extends A{
+		}
+		class C extends A{
+		}
+
+Super is a keyword in Java which can be used to call the constructor of the the superclass by using super()
+Super can be used to access any field of the super class by using super.fieldname;
+Super can be used to access any method of the super class by using super.method()
+We cannot use "this" and "super" at a time
+
+Abstract is a keyword in java.
+Any method without body is called as abstract method
+Any class with an abstract method has to be declared as an abstract class
+We cannot create an instance of an abstract class
+Inherited classes can call the abstract class methods
+Abstact classes provide partial abstraction.
+ 
+Interfaces are similiar to class.
+All Methods in interface are by default abstract.
+They cannot be instantiated.
+The code for method will be provided by implemented classes.
+Every Java class extends only one class but can implement any number of Classes.
+	eg: class show extends Showing{
+	    }
+	    class show implements Showable, Printable{
+	    }
+
+It is called as contract based programming.
+We can use both 'extends' and 'implements' on a single class.
+
+Package is used to group related class and interfaces together.
+There are two types of packages : 	Built-in 	User defined
+Package is created by writing the statement: package packagename.
+Package statement should be the first statement inside java class
+All the classes inside the package are stored inside the folder with package name.
+
+Polymorphism is important feature of OPPs
+it is a greek word meaning ability to take multiple forms
+There are two types of polymorphism: 	Static 		Method overloading
+					Dynamic		Method overriding
+Overloading is method with same name but different number/types of arguments
+Overriding is redefining super class methods in subclass.
+
+instaceof is a operator in java, it returns a true/false value.
+
+Access Specifiers:
+1. public   -> access everywhere
+2. private  -> access in same class 
+3. protected -> sub class whether in same package or different package
+4. no access specifier -> default in same package only
+
+Final is a keyword in java
+values cannot be changed of final variables  
+final is used to create any final field/method/class
+final methods cannot be overridden
+final classes cannot be extended/inherited
+
+if we print print any object; tostring() will be called
+by default tostring method return classname@hashcode
+
+String is a builtin class in java
+It is immutable.We cannot change the containts after creating the string
+we can create a string using string literal or using new keyword 
+if we are creating a string using string literal it is stored in java pool
+the containts are stored in string constant pool
+if string constant pool is presented no
+
+String bulder is mutable
+Stringbuilder has different methods
+containts can be changed in string builder
+ 
+In abstact class non abstract methods are called as concrete method.
+
+Core Marker Interfaces in Java
+
+java.io.Serializable
+Indicates that a class can be serialized (converted into a byte stream).
+
+java.lang.Cloneable
+Indicates that a class allows cloning through the Object.clone() method.
+
+java.util.RandomAccess
+Indicates that a List implementation supports fast random access.
+
+java.util.concurrent.Delayed
+Marks objects that should be delayed in DelayQueue.
+
+java.lang.annotation.Retention (with RetentionPolicy.RUNTIME)
+While technically an annotation type, it can be considered marker-like, controlling how annotations are retained.
+
+javax.annotation.processing.SupportedAnnotationTypes
+Marks annotation processors to specify supported annotations.
+
+java.lang.reflect.Proxy
+Used internally to indicate dynamic proxy instances.
+
+
+
+
+
+**

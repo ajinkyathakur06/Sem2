@@ -1,0 +1,13 @@
+package pkgInterfaceExample;
+
+public class ShapeDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Rectangle obj = new Rectangle();
+		obj.drawShape(3);
+		obj.printShape();
+		Shape.aboutShape();
+	}
+
+}
