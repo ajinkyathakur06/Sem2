@@ -1,0 +1,23 @@
+package pkgExceptionHandling;
+
+public class Welcome {
+	public void greeting(String msg) throws NullPointerException{
+		if(msg == null) {
+			throw new NullPointerException();
+		}
+	else
+	{
+		System.out.println("The message is: "+msg);
+	}
+	}
+
+
+public static void main(String args[]) {
+	Welcome welObj = new Welcome();
+	try {
+		welObj.greeting(null);
+	} catch (NullPointerException npe) {
+		System.out.println(npe);
+	}
+}
+}
