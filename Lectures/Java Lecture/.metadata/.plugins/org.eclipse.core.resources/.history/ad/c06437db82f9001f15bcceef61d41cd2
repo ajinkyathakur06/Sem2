@@ -1,0 +1,5 @@
+package pkgExceptionHandling;
+
+public class MarkAttendance(int lecNbr)throws LateComerException{
+	
+}

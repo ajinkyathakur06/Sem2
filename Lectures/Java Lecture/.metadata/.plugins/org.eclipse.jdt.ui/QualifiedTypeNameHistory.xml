@@ -5,4 +5,7 @@
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="pkginheritance.Animal"/>
     <fullyQualifiedTypeName name="pkgInterfaceExample.OuterClass.innerInterface"/>
+    <fullyQualifiedTypeName name="java.time.LocalTime"/>
+    <fullyQualifiedTypeName name="pkgExceptionHandling.MarkAttendance"/>
+    <fullyQualifiedTypeName name="pkgExceptionHandling.LateComerException"/>
 </qualifiedTypeNameHistroy>
