@@ -1,0 +1,23 @@
+package assQuestion6;
+
+public class EngineeringDepartment implements Employee {
+
+	@Override
+	public void enroll(String name, int id) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void terminate(int id) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void calculatePay(int id) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

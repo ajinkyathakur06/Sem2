@@ -1,0 +1,5 @@
+package assQuestion15;
+
+public class LowBatteryException {
+
+}

@@ -1,0 +1,31 @@
+package pkgOrgStructre;
+
+class Manager extends Employee {
+    private int noOfTeams;
+    private int noOfReportees;
+
+    public Manager(int empId, String empNm, int empAge, String empPanCrd, String empAadharCrd, String empDept, 
+                   double empSal, String empContactNbr, int empExp, int noOfTeams, int noOfReportees) {
+        super(empId, empNm, empAge, empPanCrd, empAadharCrd, empDept, empSal, empContactNbr, empExp);
+        this.noOfTeams = noOfTeams;
+        this.noOfReportees = noOfReportees;
+    }
+
+    public int getNoOfTeams() { return noOfTeams; }
+    public void setNoOfTeams(int noOfTeams) { this.noOfTeams = noOfTeams; }
+
+    public int getNoOfReportees() { return noOfReportees; }
+    public void setNoOfReportees(int noOfReportees) { this.noOfReportees = noOfReportees; }
+
+    @Override
+    public void details() {
+        super.details();
+        System.out.println("Manager Specific Details:");
+        System.out.println("Number of Teams: " + noOfTeams + ", Number of Reportees: " + noOfReportees);
+    }
+
+    @Override
+    public void computeSalary() {
+        setEmpSal(getEmpSal() * 8);
+    }
+}

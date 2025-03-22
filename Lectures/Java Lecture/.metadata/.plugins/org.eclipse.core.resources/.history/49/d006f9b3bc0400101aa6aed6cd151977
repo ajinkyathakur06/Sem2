@@ -1,0 +1,17 @@
+package assQuestion9;
+
+public class TemperatureConverterImplementation implements TemperatureConverter {
+
+	@Override
+	public double convertToFahrenheit(double celsius) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public double convertToCelsius(double fahrenheit) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

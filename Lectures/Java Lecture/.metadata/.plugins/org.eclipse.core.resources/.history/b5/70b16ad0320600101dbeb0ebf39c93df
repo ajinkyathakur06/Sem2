@@ -1,0 +1,59 @@
+package pkgCollection;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Scanner;
+
+public class ArrayListUse {
+	//create an object of ArrayList using Generics
+	ArrayList<Integer> myIntList = new ArrayList<Integer> ();
+	
+
+	public ArrayList<Integer> addElementsToCollection()
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Get the initial size of the arraylist: "+myIntList.size());
+		System.out.println("Add elements to the ArrayList");
+		try {
+			for(int i=0;i<5;i++)
+			{
+				System.out.println("Enter "+(i+1)+" value:");
+				Integer tempIntObj = sc.nextInt(); //creating Wrapper class object
+				//add this to the collection
+				myIntList.add(tempIntObj);
+			}
+			System.out.println("All elements added successfully!");
+			System.out.println("Size of the arraylist after adding the elements: "+myIntList.size());
+		}
+		catch(Exception e)
+		{
+			System.out.println("Insertion into the collection was unsuccessful due to "+e.getMessage());
+		}
+		finally
+		{
+			sc.close();
+		}
+		return myIntList;
+	}
+	
+	public void printCollectionElements(List tempLst)
+	{
+		System.out.println("Elements of the List are: ");
+		//we are using forEach method on the list and printing that element using lambda function -> notation
+		tempLst.forEach((n)->System.out.println(n));
+
+	}
+	
+	public void printCollectionUsingIterator(List tempLst)
+	{
+		Iterator<Integer> itr = tempLst.iterator();
+		while(itr.hasNext())
+		{
+			System.out.println("The next element of the collection is: ");
+			int x = (int)itr.next();
+			System.out.println(x);
+		}
+	}
+
+}

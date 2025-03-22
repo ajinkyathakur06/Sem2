@@ -1,0 +1,5 @@
+package assQuestion13;
+
+public interface MaximumProductsLimitExceededException extends Exception {
+
+}

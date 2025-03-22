@@ -1,0 +1,17 @@
+package interfaceAbstractpkg;
+
+public class Rectangle implements Area {
+
+	@Override
+	public void compute() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void print() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

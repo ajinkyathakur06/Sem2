@@ -1,0 +1,5 @@
+package assQuestion6;
+
+public interface Employee {
+
+}

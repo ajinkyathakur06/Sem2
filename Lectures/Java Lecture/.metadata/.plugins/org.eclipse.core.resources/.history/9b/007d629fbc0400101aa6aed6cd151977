@@ -1,0 +1,5 @@
+package assQuestion9;
+
+public interface TemperatureConverter {
+
+}

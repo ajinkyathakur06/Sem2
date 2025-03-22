@@ -1,0 +1,17 @@
+package assQuestion11;
+
+public class SortArray implements SortingUtility {
+
+	@Override
+	public void ascendingSort() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void descendingSort() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

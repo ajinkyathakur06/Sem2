@@ -1,0 +1,25 @@
+package pkgCollection;
+
+public class MCAStudentDemo {
+	public static void main(String[] args) {
+        // Create an ArrayList to store MCAStudent objects
+        ArrayList<MCAStudent> defList = new ArrayList<>();
+
+        // Add 10 objects of MCAStudent class to the list
+        defList.add(new MCAStudent("Alice", "MCA01"));
+        defList.add(new MCAStudent("Bob", "MCA02"));
+        defList.add(new MCAStudent("Charlie", "MCA03"));
+        defList.add(new MCAStudent("David", "MCA04"));
+        defList.add(new MCAStudent("Eva", "MCA05"));
+        defList.add(new MCAStudent("Frank", "MCA06"));
+        defList.add(new MCAStudent("Grace", "MCA07"));
+        defList.add(new MCAStudent("Hannah", "MCA08"));
+        defList.add(new MCAStudent("Ian", "MCA09"));
+        defList.add(new MCAStudent("Jack", "MCA10"));
+
+        // Print the list of MCAStudent objects
+        for (MCAStudent student : defList) {
+            System.out.println(student);
+        }
+    }
+}

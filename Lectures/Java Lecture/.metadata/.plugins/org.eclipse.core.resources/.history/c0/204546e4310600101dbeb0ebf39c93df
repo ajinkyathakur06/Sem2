@@ -1,0 +1,15 @@
+package pkgpractical;
+
+public class TemperatureConverterDemo {
+	
+
+	public static void main(String[] args) {
+		/*double temp1 = 25;
+		double temp2 = 77.5;
+        TemperatureConverterImplementation converter = new TemperatureConverterImplementation();
+        
+        TemperatureConverter.about();
+        System.out.println("25°C to Fahrenheit: " + converter.convertToFahrenheit(temp1));
+        System.out.println("77°F to Celsius: " + converter.convertToCelsius(temp2));*/
+    }
+}

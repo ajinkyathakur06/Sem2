@@ -1,0 +1,7 @@
+package assQuestion13;
+
+import java.beans.ExceptionListener;
+
+public interface MaximumProductsLimitExceededException extends ExceptionListener {
+
+}
